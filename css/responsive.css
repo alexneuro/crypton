@@ -1,0 +1,525 @@
+@media (min-aspect-ratio: 16/9) {
+    #fullscreen-bg__video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+@media (max-aspect-ratio: 16/9) {
+    #fullscreen-bg__video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1440px)
+{
+
+    .lang{
+        width:90px;
+        font-size: 15px;
+    }
+
+    .rounded-btn{
+        width:150px;
+        font-size: 15px;
+    }
+    .whitepaper h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 1279px)
+{
+
+    #scroll-menu{
+        left: 0;
+    }
+
+    #logo{
+        left:50px;
+        top:50px;
+    }
+
+    #menu-btn{
+        right:30px;
+        top:50px;
+    }
+
+    #menu{
+        padding-top: 62px;
+    }
+
+    #menu-close{
+        top:50px;
+    }
+
+    .inner-content h2{
+        font-size:30px;
+        width:670px;
+    }
+
+    .inner-content_items {
+        width: 570px;
+    }
+
+    .inner-content_items__item {
+        font-size: 20px;
+        text-align: center;
+        width: 130px;
+        margin: 20px 10px 0;
+    }
+
+
+    .inner-content_items__item:last-child {
+        margin-right: 10px;
+    }
+
+    .inner-content_items__item img
+    {
+        margin-right: 0;
+        margin-bottom:5px;
+        margin-top:0;
+    }
+
+    .inner-content_items__item .inline-flex {
+        justify-content: center;
+        -webkit-justify-content: center;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+
+    .inner-content_text{
+        width:670px;
+    }
+
+    .contract-text {
+        font-size: 17px;
+        letter-spacing: 2px;
+        width: 250px;
+        line-height: 22px;
+    }
+
+    .short-line {
+        display: none;
+    }
+
+    .contract-item.m-l-50{
+        margin-left: 0px;
+    }
+
+    .download-text {
+        font-size: 33px;
+        width: 250px;
+    }
+
+    #dashpng{
+        width:250px;
+    }
+
+    .road-item {
+        float: left;
+        width: 130px;
+        margin: 0px 39px;
+    }
+
+    .road-item h3 {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .road-item p {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    .whitepaper .head{
+        flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        margin-top:120px;
+    }
+
+    .whitepaper .head h2{
+        display: none;
+    }
+
+    .left-panel{
+        display: none;
+    }
+
+    .wp-text img{
+        max-width: 100%;
+    }
+
+    .wp-text{
+        width:100%;
+    }
+
+    .text-head {
+        top: 0;
+        padding: 0 60px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+    .inner-content h2 {
+        font-size: 30px;
+        width: 470px;
+    }
+
+    .inner-content_text {
+        width: 470px;
+        font-size:28px;
+    }
+
+    .contract-text {
+        width: 200px;
+    }
+
+    #smart-contract-img{
+        width:150px;
+    }
+
+    .dash-download .inline-flex{
+        flex-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
+    }
+
+    #dashpng{
+        margin-top:50px;
+        width:300px;
+    }
+
+    .download-text {
+        font-size: 33px;
+        width: 500px;
+        text-align: center;
+    }
+
+    .download-btn {
+        margin: 30px auto 0;
+    }
+
+    #vertical{
+        display: block;
+    }
+
+    #horizontal{
+        display: none;
+    }
+
+    #road-line{
+        display: none;
+    }
+    #road-line-vert{
+        display: block;
+        width:31px;
+        position: absolute;
+    }
+
+    .road-item{
+        float: none;
+        width:450px;
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        height:80px;
+        margin:0;
+    }
+
+    .road-item img{
+        height:31px;
+        margin-right: 10px;
+    }
+
+    .road-item-flex{
+        text-align: left;
+    }
+
+    .footer-content .flex {
+        width: 180px;}
+    .footer-content {
+        padding: 50px 50px;
+    }
+
+    .icons{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .footer-content .flex.subscribe {
+        width: 100%;
+        margin: 20px auto 0;
+        text-align: center;
+         float: none;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .copy{
+        text-align: center;
+    }
+
+    .inner-content{
+        width:90%;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px)
+{
+
+    .wp-text h3{
+        font-size:25px;
+        margin:20px 0 10px;
+        text-transform: capitalize;
+        text-align: left;
+    }
+
+    .wp-text h4{
+        font-size:22px;
+        margin:20px 0 10px;        text-align: left;
+
+    }
+
+    .wp-text h5{
+        font-size:18px;
+        margin:10px 0 10px;        text-align: left;
+
+    }
+
+
+    .whitepaper .text-head{
+        width: 100%;
+        padding: 0;
+    }
+
+    .lang{
+        display: none;
+    }
+
+    .head .rounded-btn{
+        display: none;
+    }
+
+    .whitepaper h1 {
+        font-size: 23px;
+    }
+
+    .textbox {
+        background: url(../img/wr.png) repeat;
+        width: 100%;
+        padding: 30px 0;
+        top: 155px;
+        margin:0;
+        height: calc(100vh - 215px);
+        height: -moz-calc(100vh - 215px);
+        height: -webkit-calc(100vh - 125px);
+    }
+    #follow, #scroll-menu, #scroll-menu-line{
+        display: none;
+    }
+
+    .inner-content_items {
+        width: 100%;
+    }
+
+    .links a {
+        width: 40vw;
+        margin: 50px 5vw;
+    }
+
+    .inner-content h2 {
+        font-size: 28px;
+        width: 90vw;
+        margin: 80px 5vw 0;
+    }
+
+    .inner-content_text {
+        width: 90vw;
+        font-size: 24px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .inner-content_items__item {
+        width: 40vw;
+        margin: 20px 5vw 0;
+    }
+
+    .item-3{
+        width:26vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .no-mobile{
+        display: none;
+    }
+
+    .contract-text {
+        width: 300px;
+        text-align: center;
+        line-height: 14px;
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .contract-item {
+        margin-top: 10px;
+    }
+
+    .mobile{
+        display: inline-flex;
+        display: -webkit-inline-flex;
+    }
+    .contract {
+        margin-top: 10px;
+    }
+
+    .download-text {
+        font-size: 20px;
+        width: 228px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .download-btn {
+        margin: 10px auto 0;
+        font-size:20px;
+    }
+
+    #dashpng {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .road-item {
+        width: 300px;
+    }
+
+    #logo {
+        display: block;
+        background: url(../img/logo-mini.png);
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 30px;
+        left: 30px;
+    }
+
+    #menu-btn, #menu-close {
+        right: 30px;
+        top: 30px;
+    }
+
+    #menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        text-align: center;
+    }
+    #follow {
+        position: relative;
+        margin: 0 auto;
+        bottom: 90px;
+        left: calc(50vw - 120px);
+        left: -moz-calc(50vw - 120px);
+        left: -webkit-calc(50vw - 120px);
+    }
+    #follow.active{
+        display: flex;
+        display: -webkit-flex;
+    }
+
+
+    .footer-content .flex {
+        width: 50%;
+        height: 130px;
+    }
+
+    .footer-content .flex.subscribe{
+        height: auto;
+    }
+
+    .footer-content .inline-flex {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+
+    .footer-content {
+        padding: 10px 10px;
+    }
+
+    .footer-content ul {
+        margin-top: 8px;
+        list-style: none;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    .subscribe input {
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+        width:280px;
+    }
+
+    #email-btn {
+        display: block;
+        margin: 10px auto 0;
+
+    }
+}
+
+@media screen  and (max-height: 520px){
+    .inner-content h2{
+        font-size:18px;
+    }
+
+    .inner-content_items__item {
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    .inner-content_text {
+        width: 90vw;
+        font-size: 16px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    #dashpng {
+        width: 150px;
+    }
+
+    .road-item h3 {
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-bottom:5px;
+    }
+
+    .road-item p {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    #menu li a {
+        font-size: 19px;
+    }
+}
